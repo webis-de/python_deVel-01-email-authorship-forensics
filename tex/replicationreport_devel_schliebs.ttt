@@ -1,0 +1,31 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h!]
+\centering
+\caption{Caption for the table.}
+\label{tab:table1}
+\begin{tabular}{ccc}
+\toprule
+Some & actual & content\\
+\midrule
+prettifies & the & content\\
+as & well & as\\
+using & the & booktabs package\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\begin{tabular}{l|r}
+Item & Quantity \\\hline
+Widgets & 42 \\
+Gadgets & 13
+\end{tabular}
+\caption{\label{tab:widgets}An example table.}
+\end{table*}
+\efloatseparator
+ 
