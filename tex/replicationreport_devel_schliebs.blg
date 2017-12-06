@@ -1,4 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: replicationreport_devel_schliebs.aux
 The style file: apacite.bst
-Database file #1: example.bib
+I found no \bibdata command---while reading file replicationreport_devel_schliebs.aux
+Warning--I didn't find a database entry for "Lamport1986"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
+(There was 1 error message)
