@@ -1,12 +1,11 @@
 \documentclass[a4paper,man,natbib]{apa6}
 
-\usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{epigraph}
 
+\usepackage{pifont}% http://ctan.org/pkg/pifont
 
 \title{Replication of de Vel (2012): Mining Email Content for Author Identification Forensics}
 \shorttitle{De Vel Replication}
@@ -22,88 +21,15 @@
 
 In this document, I will try to document the process of replication and re-implementation of the algorithm. 
 
-\section{Paper Description}
-\label{sec:Paper Description}
 
-
-\begin{table}[h!]
-	\centering
-	\caption{Caption for the table.}
-	\label{tab:table1}
-	\begin{tabular}{ccc}
-		\toprule
-		Some & actual & content\\
-		\midrule
-		prettifies & the & content\\
-		as & well & as\\
-		using & the & booktabs package\\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-
- \begin{enumerate}
-	\item Summary, Test Case and Approach
-		\begin{enumerate}
-		\item ...
-		\begin{enumerate}
-			\item 
-				\begin{itemize}
-					\item xxx
-					\item yyy
-				\end{itemize}
-		\end{enumerate}
-			\item zzz
-	\begin{enumerate}
-		\item 
-		\begin{itemize}
-			\item 111
-			\item 222
-		\end{itemize}
-	\end{enumerate}
-\end{enumerate}
-\end{enumerate}
-
-\section{Implementation/Operationalization}
-\label{sec:Implementation/Operationalization}
-
-\begin{enumerate}
-	\item Features and their implementation
-
-	 
-
-
-	\item Other ideas
-	\begin{enumerate}
-		\item Comparative Approach: Test for other countries: 
-		\begin{enumerate}
-			\item France after Bataclan, other national disasters
-			\begin{enumerate}
-				\item CEVIPOF Dataset?
-				\item Other Datasets?
-			\end{enumerate}
-		\end{enumerate}
-	\end{enumerate}
-	\begin{enumerate}
-		\item Meta Analysis?
-		\begin{enumerate}
-			\item Include all model specifications in the regression as interacting with s.e.
-			\begin{enumerate}
-				\item xx
-			\end{enumerate}
-			\item Could we detect very small but true effects in meta analysis that would not be able to be identified in an individual study due to small effect sizes and large standard errors
-		\end{enumerate}
-		\item Lecture notes Tom Stanley
-		\begin{enumerate}
-			\item xx
-			\item yy 
-		\end{enumerate}
-	\end{enumerate}
-\end{enumerate}
-
-
-\section{Some \LaTeX{} Examples}
+\section{Features}
 \label{sec:examples}
+
+Overview over Style Merker Attributes
+\input{../results/tables/style_markers.tex}
+
+\subsection{Number of blank lines/total number of lines}
+
 
 \subsection{Sections}
 
@@ -162,7 +88,7 @@ You can make lists with automatic numbering \dots
 
 We hope you find write\LaTeX\ useful, and please let us know if you have any feedback using the help menu above.
 
-\bibliography{example}
+%\bibliography{example}
 
 \end{document}
 

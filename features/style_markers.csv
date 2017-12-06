@@ -1,0 +1,21 @@
+StyleMarkerAttributeType;Status;VarName;Remarks
+Number of blank lines/total number of lines;+;;lorem ipsum pipapo
+Average sentence length;+;;lalala blablabla
+Average word length (number of characters);+;;
+Vocabulary richness i.e., V=M;+;;
+Total number of function words/M;+;;
+Function word frequency distribution (122 features);-;;
+Total number of short words/M;-;;
+Count of hapax legomena/M;0;;
+Count of hapax legomena/V;0;;
+Total number of characters in words/C;-;;
+Total number of alphabetic characters in words/C;+;;
+Total number of upper-case characters in words/C;0;;
+Total number of digit characters in words/C;+;;
+Total number of white-space characters/C;+;;
+Total number of space characters/C;+;;
+Total number of space characters/number white-space characters;-;;
+Total number of tab spaces/C;-;;
+Total number of tab spaces/number white-space characters;0;;
+Total number of punctuations/C;0;;
+Word length frequency distribution/M (30 features);-;;
